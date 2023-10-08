@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-primary: #FF0060;
+    /* --color-primary: #2f9b46; */
+    --color-danger: #f53f3f;
+    --color-success: #1B9C85;
+    --color-warning: #F7D060;
+    --color-surprise: #6088f7;
+    --color-white: #FFF;
+    --color-info-dark: #7D8DA1;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-dark-variant: #677483;
+    --color-background: #F7F7F7;
+    --color-winner: #ebc34b;
+    --color-second: #b3b3b3;
+    --color-third: #ce8d44;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+
+    --phone: 576px;
+    --tablet: 768px;
+    --desktop: 992px;
+    --laptop: 1200px;
+    --widescreen: 1400px;
+    --largescreen: 1600px;
+    --xl: 1800px;
+}
+
+.dark-mode-variables {
+    --color-background: #181A1E;
+    --color-white: #202528;
+    --color-dark: #EDEFFD;
+    --color-dark-variant: #A3BDCC;
+    --color-info-dark: #fffafa;
+    --color-light: rgba(0, 0, 0, 0.4);
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-background);
+    color: var(--color-dark);
+    font-size: 0.88rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.primary {
+    color: var(--color-primary);
+}
+
+.danger {
+    color: var(--color-danger);
+}
+
+.success {
+    color: var(--color-success);
+}
+
+.warning {
+    color: var(--color-warning);
+}
+
+.winner {
+    color: var(--color-winner);
+}
+
+.surprise {
+    color: var(--color-surprise);
+}
+
+.bg-danger {
+    background-color: var(--color-danger);
+}
+
+.bg-success {
+    background-color: var(--color-success);
+}
+
+.bg-warning {
+    background-color: var(--color-warning);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.5em;
+  line-height: 1.1;
+}
