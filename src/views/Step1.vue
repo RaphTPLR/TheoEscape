@@ -7,7 +7,7 @@
           <span>R</span>
           <span class="dark-mode-button" @click="toggleDarkMode">K</span>  
           <span>M</span>
-          <span>O</span>
+          <span class="balloon"><img src="../assets/ballon.png" alt="">O</span>
           <span>D</span>
           <span>E</span>
         </h1>
