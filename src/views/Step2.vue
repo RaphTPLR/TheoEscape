@@ -2,10 +2,10 @@
     <div class="content">
         <div class="container">
             <div class="container-img">
-                <div class="image"><img src="../assets/IMG_1914-min.jpg" alt=""></div>
-                <div class="image"></div>
-                <div class="image"></div>
-                <div class="image"></div>
+                <div class="img1" id="image"></div>
+                <div class="img2" id="image"></div>
+                <div class="img3" id="image"></div>
+                <div class="img4" id="image"></div>
             </div>
             <div class="searchbar">
                 <input type="text" placeholder="Recherche" v-model="searchQuery">
@@ -27,7 +27,7 @@ import  router from '../../router/index.js';
         searchQuery() {
             const search = this.searchQuery.toLowerCase()
             console.log(search)
-            if (search === "Gurky") {
+            if (search === "gurky") {
                 router.replace('/Step3');
             }
         }

@@ -7,7 +7,7 @@
 
     .container {
         height: 80vh;
-        width: 50vw;
+        width: 40vw;
 
         .container-img {
             height: 80%;
@@ -15,18 +15,37 @@
             display: flex;
             flex-wrap: wrap;
 
-            .image {
+            #image {
                 background-color: black;
                 margin: 1rem;
                 flex-grow: 1;
                 flex-basis: 40%;
                 overflow: hidden;
+                background-size: cover;
+                border-radius: 1rem;
+                cursor: pointer;
+                transition: all .3s ease;
 
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
+                &:hover {
+                    transform: scale(1.01) rotate(1deg);
                 }
+            }
+
+            .img1 {
+                background: url(../assets/IMG_1969-min.jpg);
+            }
+
+            .img2 {
+                background: url(../assets/IMG_1971.jpg);
+                background-position: 0;
+            }
+
+            .img3 {
+                background: url(../assets/IMG_1970.jpg);
+            }
+
+            .img4 {
+                background: url(../assets/IMG_1914-min.jpg);
             }
         }
 
