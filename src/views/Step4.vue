@@ -43,6 +43,7 @@ export default {
     return {
       secretWord: "PLAGE",
       userInput: "",
+      feedback: [],
       isGameOver: false,
       remainingAttempts: 5,
       letterCells: [
@@ -62,7 +63,7 @@ export default {
 
     checkGuess() {
       if (this.userInput.length !== 5) {
-        console.log("Le mot doit avoir 5 lettres.");
+        this.feedback = ["Le mot doit avoir 5 lettres."];
         return;
       }
 
@@ -72,6 +73,11 @@ export default {
       for (let i = 0; i < 5; i++) {
         if (guess[i] === this.secretWord[i]) {
           this.letterCells[i].isCorrect = true;
+          this.feedback.push("B");
+        } else if (this.secretWord.includes(guess[i])) {
+          this.feedback.push("M");
+        } else {
+          this.feedback.push("X");
         }
       }
 
@@ -92,7 +98,7 @@ export default {
         }
       }
 
-      this.attempts.push({ word: this.userInput});
+      this.attempts.push({ word: this.userInput, feedback: this.feedback });
       this.userInput = "";
     },
 
@@ -106,6 +112,16 @@ export default {
         cell.isCorrect = false;
       });
       this.attempts = [];
+    },
+
+    feedbackClass(feedback) {
+      return {
+        "feedback-correct": feedback === "B" || feedback === "B".toLowerCase(),
+        "feedback-misplaced":
+          feedback === "M" || feedback === "M".toLowerCase(),
+        "feedback-incorrect":
+          feedback === "X" || feedback === "X".toLowerCase(),
+      };
     },
 
     back() {
