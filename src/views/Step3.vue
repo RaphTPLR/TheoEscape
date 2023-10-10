@@ -20,6 +20,7 @@
                     arrow_downward
                 </span>
             </div>
+            <span class="back" @click="back">BACK</span>
         </div>
         <div class="find" @click="nextStep">
             <h2>ICI</h2>
@@ -47,7 +48,11 @@ export default {
             const container = document.getElementById('container');
             container.scrollIntoView({ behavior: 'smooth' });
             router.replace('/Step4');
-        }
+        },
+
+      back() {
+        router.replace('/Step2');
+      }
     }
 }
 </script>

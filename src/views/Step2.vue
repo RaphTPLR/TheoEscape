@@ -11,6 +11,7 @@
                 <input type="text" placeholder="Recherche" v-model="searchQuery">
             </div>
         </div>
+        <span class="back" @click="back">BACK</span>
     </div>
 </template>
 
@@ -32,6 +33,12 @@ import  router from '../../router/index.js';
             }
         }
     },
+
+    methods: {
+      back() {
+        router.replace('/Step1');
+      }
+    }
   };
   </script>
 

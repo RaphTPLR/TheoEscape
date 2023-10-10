@@ -19,6 +19,7 @@
         </div>
       </div>
       <span class="find">corbeau</span>
+      <span class="back" @click="back">BACK</span>
     </div>
   </template>
   
@@ -36,14 +37,18 @@ import  router from '../../router/index.js';
         searchQuery() {
             const search = this.searchQuery.toLowerCase()
             if (search === "corbeau") {
-                        router.replace('/Step2');
-                    }
+                router.replace('/Step2');
             }
-        },
+        }
+    },
     methods: {
       toggleDarkMode() {
         this.isDarkModeActive = !this.isDarkModeActive;
       },
+
+      back() {
+        router.replace('/');
+      }
     }
   };
   </script>
