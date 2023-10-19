@@ -7,7 +7,7 @@
           v-model="userInput"
           :disabled="isGameOver"
           @keyup.enter="checkGuess"
-          maxlength="5"
+          maxlength="6"
           @input="convertToUppercase"
         />
         <button @click="checkGuess" :disabled="isGameOver"></button>
@@ -41,12 +41,13 @@ import router from "../../router/index.js";
 export default {
   data() {
     return {
-      secretWord: "PLAGE",
+      secretWord: "ROCKET",
       userInput: "",
       feedback: [],
       isGameOver: false,
       remainingAttempts: 5,
       letterCells: [
+        { letter: "", isCorrect: false },
         { letter: "", isCorrect: false },
         { letter: "", isCorrect: false },
         { letter: "", isCorrect: false },
@@ -62,15 +63,15 @@ export default {
     },
 
     checkGuess() {
-      if (this.userInput.length !== 5) {
-        this.feedback = ["Le mot doit avoir 5 lettres."];
+      if (this.userInput.length !== 6) {
+        this.feedback = ["Le mot doit avoir 6 lettres."];
         return;
       }
 
       const guess = this.userInput.toUpperCase();
       this.feedback = [];
 
-      for (let i = 0; i < 5; i++) {
+      for (let i = 0; i < 6; i++) {
         if (guess[i] === this.secretWord[i]) {
           this.letterCells[i].isCorrect = true;
           this.feedback.push("B");
