@@ -4,6 +4,7 @@ import Step1 from '../src/views/Step1.vue'
 import Step2 from '../src/views/Step2.vue'
 import Step3 from '../src/views/Step3.vue'
 import Step4 from '../src/views/Step4.vue'
+import Step5 from '../src/views/Step5.vue'
 import Step6 from '../src/views/Step6.vue'
 import Step7 from '../src/views/Step7.vue'
 import Final from '../src/views/Final.vue'
@@ -33,6 +34,11 @@ const routes = [
         path:'/Step4',
         name: 'Step4',
         component: Step4,
+    },
+    {
+        path:'/Step5',
+        name: 'Step5',
+        component: Step5,
     },
     {
         path:'/Step6',

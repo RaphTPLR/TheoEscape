@@ -10,7 +10,7 @@
             <p>Lorsque le compteur est égal à 0 
                 alors écrit dans la barre de recherche Aujourd'hui
             </p>
-            <div class="searchbar">
+            <div class="searchbar" v-if="isCountdownFinished">
                 <input type="text" placeholder="Recherche" v-model="searchQuery">
                 <span class="material-icons">
                     search
@@ -68,7 +68,7 @@ export default {
     },
 
     back() {
-        router.replace('/Step4');
+        router.replace('/Step5');
     }   
   },
 

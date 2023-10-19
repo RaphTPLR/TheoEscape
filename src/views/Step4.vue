@@ -87,7 +87,7 @@ export default {
         this.isGameOver = true;
         setTimeout(() => {
           this.resetGame();
-          router.replace("/Step6");
+          router.replace("/Step5");
         }, 1000);
       } else {
         this.remainingAttempts--;

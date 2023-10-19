@@ -1,0 +1,282 @@
+#img {
+    position: absolute;
+    width: 15rem;
+    height: 20rem;
+    margin: 1rem;
+    overflow: hidden;
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s ease;
+
+    &:hover {
+        border: 1px solid var(--color-white);
+        z-index: 999;
+    }
+}
+
+.img1 {
+    background: url(https://www.zooplus.fr/magazine/wp-content/uploads/2021/03/chat-dextérieur.jpeg);
+    background-position: center;
+    top: 0;
+    left: 0;
+    transform: rotate(-45deg);
+}
+
+.img2 {
+    background: url(https://upload.chatsdumonde.com/img_global/25-comportement/chasse-chez-le-chat/_light-1098_6545-un-chat-tricolore-tenant-sa-proie-dans-sa-gueule.jpg);
+    background-position: center;
+    top: 20rem;
+    left: -3rem;
+}
+
+.img3 {
+    background: url(https://upload.chatsdumonde.com/img_global/25-comportement/chasse-chez-le-chat/_light-1098_6550-un-chat-tigre-a-poil-long-se-prepare-a-attaquer.jpg);
+    background-position: center;
+    top: 42rem;
+    left: 5rem;
+    transform: rotate(180deg);
+}
+
+.img4 {
+    background: url(https://upload.chatsdumonde.com/img_global/25-comportement/chasse-chez-le-chat/_light-1098_11251-un-chat-noir-aux-yeux-jaunes-tenant-sa-proie.jpg);
+    background-position: center;
+    top: 55rem;
+    left: -3rem;
+    transform: rotate(30deg);
+}
+
+.img5 {
+    background: url(https://upload.chatsdumonde.com/img_global/25-comportement/chasse-chez-le-chat/_light-1098_6561-un-chat-tigre-tenant-une-souris-par-la-queue.jpg);
+    background-position: center;
+    top: 10rem;
+    left: 15rem;
+    transform: rotate(30deg);
+}
+
+.img6 {
+    background: url(https://static.actu.fr/uploads/2021/08/adobestock-84053576-960x640.jpeg);
+    background-position: center;
+    top: 28rem;
+    left: 17rem;
+    transform: rotate(-45deg);
+}
+
+.img7 {
+    background: url(https://www.rustica.fr/images/chaton-ch110812-187-l870-h630.jpg.webp);
+    background-position: center;
+    top: -5rem;
+    left: 25rem;
+    transform: rotate(90deg);
+}
+
+.img8 {
+    background: url(https://www.rustica.fr/images/chat-plantations-plantes-l870-h630.jpg.webp);
+    background-position: 0;
+    bottom: -2rem;
+    left: 22rem;
+    transform: rotate(-30deg);
+}
+
+.img9 {
+    background: url(https://www.lasantedemonchat.fr/wp-content/uploads/sites/19/2021/01/chat-jardin.jpeg?resize=2048,1365);
+    background-position: 0;
+    bottom: 7rem;
+    left: 35rem;
+}
+
+.img9 {
+    background: url(https://www.mesopinions.com/public/img/petition/petition-img-206099-fr.webp);
+    background-position: center;
+    bottom: 30rem;
+    left: 30rem;
+}
+
+.img10 {
+    background: url(https://static.actu.fr/uploads/2020/07/chats.jpeg);
+    background-position: center;
+    bottom: 10rem;
+    left: 35rem;
+    transform: rotate(50deg);
+}
+
+.img11 {
+    background: url(https://www.leblogdici.fr/wp-content/uploads/2021/07/chat_jardin-400x600.png);
+    background-position: center;
+    bottom: -8rem;
+    left: 43rem;
+    transform: rotate(90deg);
+}
+
+.img12 {
+    background: url(https://france3-regions.francetvinfo.fr/image/4oXemfMvAXfM3zWlBfX3BoNvEGQ/600x400/regions/2020/06/09/5edf22c508681_photochat-2907839.jpg);
+    background-position: center;
+    top: 4rem;
+    left: 43rem;
+    transform: rotate(45deg);
+}
+
+.img13 {
+    background: url(https://www.simulea.fr/wp-content/uploads/2021/06/yeux-chat.jpeg);
+    background-position: center;
+    top: -10rem;
+    left: 55rem;
+}
+
+.img14 {
+    background: url(https://images.ctfassets.net/b85ozb2q358o/1LB7BQP0itKYncNwe151Aa/098787e6ec2b0b961067495cc01d1cd9/parasites_chat_1.jpeg);
+    background-position: center;
+    top: 23rem;
+    transform: rotate(180deg);
+    left: 50rem;
+}
+
+.img15 {
+    background: url(https://images.ctfassets.net/b85ozb2q358o/6eoyMdjlIttaVaZZcAjJPD/5f3736f5d32ca987092c73ebb4eda9cb/parasites_chat_2.jpeg);
+    background-position: center;
+    top:  42rem;
+    left: 55rem;
+    transform: rotate(-50deg);
+}
+
+.img16 {
+    background: url(../assets/rocket.jpg);
+    background-position: center;
+    bottom: -10rem;
+    left: 67rem;
+    transform: rotate(180deg);
+}
+
+.img17 {
+    background: url(https://images.ctfassets.net/b85ozb2q358o/4i8Ny7sRBGK5XJjy1LgIVf/19b04d6b798fe485ed4729b868582a27/parasites_chat_11.jpeg);
+    background-position: center;
+    top: 9rem;
+    left: 63rem;
+}
+
+.img18 {
+    background: url(https://images.ctfassets.net/b85ozb2q358o/4sToNp5kdNKEt5gJFEo1Hh/187166366f526ec1b6ac369e2b4a97a8/parasites_chat_5.jpeg);
+    background-position: center;
+    top: 30rem;
+    right: 49rem;
+    transform: rotate(-45deg);
+}
+
+.img19 {
+    background: url(https://images.ctfassets.net/b85ozb2q358o/4R3uImMCR3UWg51GGr5ZyJ/9a87de20b1706e31801b46281e3a8250/parasites_chat_6.jpeg);
+    background-position: center;
+    bottom: 4rem;
+    right: 38rem;
+    transform: rotate(90deg);
+}
+
+.img20 {
+    background: url(https://images.ctfassets.net/b85ozb2q358o/jKadcxzvMuGFGzNIrNSLH/642f03ebd0f61018bd1559574c5e89bc/parasites_chat_4.jpeg);
+    background-position: center;
+    bottom: -10rem;
+    right: 32rem;
+    transform: rotate(-210deg);
+}
+
+.img21 {
+    background: url(https://images.ctfassets.net/b85ozb2q358o/1xWfcTyq36ILXmx8rB4uWK/756dae74cd139970fd1a1cc7898cb0c9/parasites_chat_8.jpeg);
+    background-position: center;
+    top: -4rem;
+    right: 42rem;
+    transform: rotate(30deg);
+}
+
+.img22 {
+    background: url(https://www.everland-petfood.com/wp-content/uploads/AdobeStock_101841843.jpeg);
+    background-position: center;
+    top: 25rem;
+    right: 33rem;
+    transform: rotate(210deg);
+}
+
+.img23 {
+    background: url(https://img.passeportsante.net/1200x675/2022-11-14/chat-europeen.webp);
+    background-position: center;
+    top: 15rem;
+    right: 39rem;
+    transform: rotate(-90deg);
+}
+
+.img24 {
+    background: url(https://www.radiofrance.fr/s3/cruiser-production/2021/06/e106ef7d-7526-4c84-aaa2-b45260f6246b/560x315_le-chat-botte-076-chl-111525-jpg.webp);
+    background-position: center;
+    top: 3rem;
+    right: 25rem;
+    transform: rotate(-45deg);
+}
+
+.img25 {
+    background: url(https://www.leblogdici.fr/wp-content/uploads/2021/07/chat_jardin6-400x600.png);
+    background-position: center;
+    top: -10rem;
+    right: 15rem;
+    transform: rotate(180deg);
+}
+
+.img26 {
+    background: url(https://media.os.fressnapf.com/cms/2020/08/5f3a86bbc59af-5f3a86bbc59b0Ratgeber-Katze_unterschiedlichen_Katzenrassen_1200x527.jpg.jpg?t=cmsimg_920&f=webp);
+    background-position: center;
+    top: -2rem;
+    right: -2rem;
+    transform: rotate(-30deg);
+}
+
+.img27 {
+    background: url(https://www.lacompagniedesanimaux.com/media/amasty/blog/cache/0/3/800/410/03736ac860eaf1fa1a3082036dd0cc3c.jpg);
+    background-position: center;
+    top: 9rem;
+    right: 9rem;
+    transform: rotate(180deg);
+}
+
+.img28 {
+    background: url(https://cats.com/wp-content/uploads/2021/02/IndoorVsOutdoorCat3.jpg);
+    background-position: center;
+    top: 22rem;
+    right: 18rem;
+    transform: rotate(-210deg);
+}
+
+.img29 {
+    background: url(https://cats.com/wp-content/uploads/2021/02/IndoorVsOutdoorCatFeature.jpg);
+    background-position: center;
+    bottom: 7rem;
+    right: 20rem;
+    transform: rotate(-10deg);
+}
+
+.img30 {
+    background: url(http://www.thinkcats.com/250-wide-images/young-tabby-in-grass.png);
+    background-position: center;
+    bottom: -10rem;
+    right: 15rem;
+    transform: rotate(-90deg);
+}
+
+.img31 {
+    background: url(https://shedhappens.net/wp-content/uploads/2020/07/outdoor-cat-1140x681.jpg);
+    background-position: center;
+    bottom: 10rem;
+    right: 3rem;
+    transform: rotate(50deg);
+}
+
+.img32 {
+    background: url(https://modkat.com/cdn/shop/articles/outdoorcats_blog_800x.jpg?v=1536432895);
+    background-position: center;
+    bottom: 24rem;
+    right: -3rem;
+    transform: rotate(90deg);
+}
+
+.img33 {
+    background: url(https://parlezvouschien.fr/wp-content/uploads/2018/10/chien-jardin-511x255.jpg);
+    background-position: 20%;
+    bottom: -5rem;
+    right: -5rem;
+    transform: rotate(180deg);
+}
