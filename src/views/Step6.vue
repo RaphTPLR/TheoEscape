@@ -18,6 +18,7 @@
             </div>
         </div>
         <span class="back" @click="back">BACK</span>
+        <img src="../assets/ballon.png" alt="" id="img1">
     </div>
 </template>
   

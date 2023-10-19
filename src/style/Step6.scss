@@ -47,4 +47,10 @@
                 transition: all .3s ease;
             }
     }
+
+    img {
+        position: absolute;
+        height: 60rem;
+        z-index: -9999;
+    }
 }

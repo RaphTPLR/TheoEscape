@@ -7,6 +7,12 @@
             </div>
             <div class="btn" @click="nextStep">GO</div>
         </div>
+        <img src="../assets/ballon.png" alt="" id="img1">
+        <img src="../assets/ballon.png" alt="" id="img2">
+        <img src="../assets/ballon.png" alt="" id="img3">
+        <img src="../assets/ballon.png" alt="" id="img4">
+        <img src="../assets/ballon.png" alt="" id="img5">
+        <img src="../assets/ballon.png" alt="" id="img6">
     </div>
 </template>
 

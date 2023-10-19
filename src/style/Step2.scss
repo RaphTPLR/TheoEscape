@@ -56,6 +56,27 @@
             place-items: center;
         }
     }
+
+    img {
+        position: absolute;
+        height: 9rem;
+        z-index: -9999;
+    }
+
+    #img1 {
+        top: 40rem;
+        left: 2rem;
+    }
+
+    #img2 {
+        top: 5rem;
+        left: 30rem;
+    }
+
+    #img3 {
+        top: 40rem;
+        right: 10rem;
+    }
 }
 
 input {

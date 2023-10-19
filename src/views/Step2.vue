@@ -12,6 +12,9 @@
             </div>
         </div>
         <span class="back" @click="back">BACK</span>
+        <img src="../assets/ballon.png" alt="" id="img1">
+        <img src="../assets/ballon.png" alt="" id="img2">
+        <img src="../assets/ballon.png" alt="" id="img3">
     </div>
 </template>
 

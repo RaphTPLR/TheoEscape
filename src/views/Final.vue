@@ -5,6 +5,7 @@
             <p>Bon anniversaire, tu vas passer plusieurs jours à Astérix !</p>
         </div>
         <span class="back" @click="back">BACK</span>
+        <img src="../assets/ballon.png" alt="" id="img1">
     </div>
 </template>
 

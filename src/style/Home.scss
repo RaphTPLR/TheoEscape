@@ -37,4 +37,40 @@
             }
         }
     }
+
+    img {
+        position: absolute;
+        height: 9rem;
+        z-index: -9999;
+    }
+
+    #img1 {
+        top: -1rem;
+        left: 2rem;
+    }
+
+    #img2 {
+        top: 5rem;
+        left: 30rem;
+    }
+
+    #img3 {
+        top: 40rem;
+        left: 50rem;
+    }
+
+    #img4 {
+        top: 50rem;
+        left: 15rem;
+    }
+
+    #img5 {
+        bottom: 5rem;
+        right: 15rem;
+    }
+
+    #img6 {
+        top: 15rem;
+        right: 25rem;
+    }
 }
