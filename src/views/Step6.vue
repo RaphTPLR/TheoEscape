@@ -1,11 +1,17 @@
 <template>
     <div class="content">
-        <div class="container" v-if="!isCountdownFinished">
-            <span>
-            {{ countdown.days > 0 ? countdown.days : '00'}}j .
-            {{ countdown.days > 0 ? countdown.hours : '00'}}h .
-            {{ countdown.days > 0 ? countdown.minutes : '00'}}m .
-            {{ countdown.days > 0 ? countdown.seconds : '00'}}s 
+        <div class="container">
+            <span v-if="!isCountdownFinished">
+            {{ countdown.days }}j .
+            {{ countdown.hours }}h .
+            {{ countdown.minutes }}m .
+            {{ countdown.seconds }}s 
+            </span>
+            <span v-if="isCountdownFinished">
+            00j .
+            00h .
+            00m .
+            00s 
             </span>
             <p>Lorsque le compteur est égal à 0 
                 alors écrit dans la barre de recherche Aujourd'hui
