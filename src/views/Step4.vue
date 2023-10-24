@@ -2,6 +2,8 @@
   <div class="content">
     <div class="container">
       <h1>Motus</h1>
+      <h2 style="margin-top: 2rem;">MOT EN 6 LETTRES</h2>
+      <h2>ENTRER POUR VALIDER TON MOT</h2>
       <div class="searchbar">
         <input
           v-model="userInput"
